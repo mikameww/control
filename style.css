@@ -16,7 +16,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            text-color: #212d45;
+            text-color: #162c2d;
         }
         .logo {
             font-weight: bold;
@@ -27,6 +27,7 @@
         .contact-info {
             display: flex;
             gap: 20px;
+            text-color: #162c2d;
         }
         .social-icons a {
             text-decoration: none;
