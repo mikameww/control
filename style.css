@@ -276,3 +276,16 @@
     display: flex;
     gap: 20px;
 }
+.submit {
+    background-color: #007bff; /* Синий цвет кнопки */
+    color: white;              /* Белый текст на кнопке */
+    padding: 10px 20px;        /* Внутренние отступы */
+    border: none;              /* Убираем стандартную рамку */
+    border-radius: 5px;        /* Скругляем углы */
+    cursor: pointer;           /* Указываем, что это кликабельный элемент */
+    transition: background-color 0.3s ease; /* Плавный переход цвета при наведении */
+}
+
+.submit:hover {
+    background-color: #0056b3; /* Темнее синий цвет при наведении */
+}
