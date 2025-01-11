@@ -9,7 +9,6 @@
             color: #333;
         }
         .header {
-            position: sticky;
             background-image: linear-gradient(to right, #256592, #74bb50);
             color: white;
             text-align: center;
