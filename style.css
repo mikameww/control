@@ -16,6 +16,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+            text-color: #212d45;
         }
         .logo {
             font-weight: bold;
