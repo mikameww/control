@@ -285,7 +285,6 @@
     cursor: pointer;           /* Указываем, что это кликабельный элемент */
     transition: background-color 0.3s ease; /* Плавный переход цвета при наведении */
 }
-
 .submit-button:hover {
     background-color: #0056b3; /* Темнее синий цвет при наведении */
 }
