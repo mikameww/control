@@ -9,7 +9,7 @@
             color: #333;
         }
         .header {
-            background-image: linear-gradient(to right, #256592, #67d93c);
+            background-image: linear-gradient(to right, #256592, #74bb50);
             color: white;
             text-align: center;
             padding: 20px;
@@ -90,6 +90,15 @@
             font-size: 18px;
             margin-bottom: 10px;
         }
+.course programming {
+            color: #256592;            
+}
+.course web-dev {
+            color: #278961;
+}
+.course graphic-design {
+            color: #74bb50;
+}
         .testimonials {
             margin-top: 50px;
             overflow: hidden;
