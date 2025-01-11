@@ -25,9 +25,11 @@
             color: white;
         }
         .contact-info {
+            position: sticky;
             display: flex;
             gap: 20px;
             text-color: #162c2d;
+            border-radius: 18px;
         }
         .social-icons a {
             text-decoration: none;
