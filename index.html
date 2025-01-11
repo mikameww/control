@@ -4,63 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Курсы программирования и дизайна "Чудо НАДИП"</title>
-    <!-- Подключаем шрифт Roboto -->
+    <!-- Подключение шрифта Roboto -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="style.css">
+    <!-- Подключение файла стилей -->
+    <link rel="stylesheet" href="styles.css">
     <!-- SEO-метатеги -->
     <meta name="description" content="Освойте современные технологии программирования и веб-дизайна на курсах 'Чудо НАДИП'. Программы для новичков и профессионалов.">
     <meta name="keywords" content="курсы программирования, веб-дизайн, Python, JavaScript, C#, HTML, CSS, React, Node.js, Adobe Photoshop, Illustrator, Figma">
-   
-       </head>
+</head>
 <body>
-    <div class="header">
+    <header class="header">
         <a href="#" class="logo">Чудо НАДИП</a>
         <div class="contact-info">
             <a href="tel:+79991234567" class="phone">(999) 123-45-67</a>
             <a href="mailto:info@chudonadip.ru" class="email">info@chudonadip.ru</a>
             <div class="social-icons">
-                <a href="#"><img src="icons/facebook.svg" alt="Facebook"></a>
-                <a href="#"><img src="icons/instagram.svg" alt="Instagram"></a>
-                <a href="#"><img src="icons/vk.svg" alt="VK"></a>
+                <a href="#" aria-label="Facebook"><img src="icons/facebook.svg" alt="Facebook"></a>
+                <a href="#" aria-label="Instagram"><img src="icons/instagram.svg" alt="Instagram"></a>
+                <a href="#" aria-label="VK"><img src="icons/vk.svg" alt="VK"></a>
             </div>
         </div>
-    </div>
+    </header>
     
-    <div class="content">
-        <p style="color:#007bff;">На наших курсах вы сможете освоить современные технологии программирования и веб-дизайна. Мы предлагаем разнообразные программы обучения, которые подойдут как новичкам, так и профессионалам.</p>
-        
-        <h2 style="color:#007bff;">Наши направления:</h2>
-        <div class="courses">
-            <div class="course" style="border-color:#007bff;">
-                <h3 class="course-title" style="color:#007bff;">Программирование</h3>
+    <main class="content">
+        <section class="intro">
+            <p>На наших курсах вы сможете освоить современные технологии программирования и веб-дизайна. Мы предлагаем разнообразные программы обучения, которые подойдут как новичкам, так и профессионалам.</p>
+        </section>
+
+        <section class="courses">
+            <h2>Наши направления:</h2>
+            <div class="course programming">
+                <h3>Программирование</h3>
                 <p>(Python, JavaScript, C#)</p>
             </div>
-            <div class="course" style="border-color:#00BCD4;">
-                <h3 class="course-title" style="color:#00BCD4;">Веб-разработка</h3>
+            <div class="course web-dev">
+                <h3>Веб-разработка</h3>
                 <p>(HTML/CSS, React, Node.js)</p>
             </div>
-            <div class="course" style="border-color:#FF5722;">
-                <h3 class="course-title" style="color:#FF5722;">Графический дизайн</h3>
+            <div class="course graphic-design">
+                <h3>Графический дизайн</h3>
                 <p>(Adobe Photoshop, Illustrator, Figma)</p>
             </div>
-        </div>
-        
-        <h2 style="color:#007bff;">Отзывы наших студентов</h2>
-        <div class="testimonials">
-            <div class="testimonial active" style="background-color:#E0F7FA;">
+        </section>
+
+        <section class="testimonials">
+            <h2>Отзывы наших студентов</h2>
+            <div class="testimonial active">
                 <p>"Я прошел курс по программированию и теперь работаю разработчиком. Спасибо 'Чудо НАДИП' за такую возможность!"</p>
                 <p class="testimonial-author">— Иван Иванов</p>
             </div>
-            <div class="testimonial" style="background-color:#FFEBEE;">
+            <div class="testimonial">
                 <p>"Курс по графическому дизайну помог мне улучшить мои навыки и найти работу мечты. Рекомендую всем!"</p>
                 <p class="testimonial-author">— Мария Петрова</p>
             </div>
-        </div>
-        
-        <form action="/submit" method="post">
-            <label for="name">Ваше имя:</label>
-            
+        </section>
+
+        <section class="contact-form">
+            <h2>Свяжитесь с нами</h2>
+            <form action="/submit" method="post">
+                <label for="name">Ваше имя:</label>
+                <input type="text" id="name" name="name" required />
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© Чудо НАДИП. Все права защищены.</p>
+    </footer>
 </body>
 </html>
