@@ -276,7 +276,7 @@
     display: flex;
     gap: 20px;
 }
-.submit {
+.submit-button {
     background-color: #007bff; /* Синий цвет кнопки */
     color: white;              /* Белый текст на кнопке */
     padding: 10px 20px;        /* Внутренние отступы */
@@ -286,6 +286,6 @@
     transition: background-color 0.3s ease; /* Плавный переход цвета при наведении */
 }
 
-.submit:hover {
+.submit-button:hover {
     background-color: #0056b3; /* Темнее синий цвет при наведении */
 }
